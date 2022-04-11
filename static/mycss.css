@@ -1,0 +1,45 @@
+summary {
+    padding-left: 5%;
+    font-size:18
+}
+
+a {
+    display:inline-block;
+    padding:.4em .5em;margin:2px 2px 2px 0;
+    font-size:11px;line-height:1;
+    white-space:nowrap;
+    text-decoration:none;
+    text-align:center;
+    border-width:1px;
+    border-style:solid;
+    border-radius:3px;
+    transition:all .15s ease-in-out
+}
+
+pre {
+    margin-bottom:1em;
+    padding:12px 8px;
+    width:auto;
+    max-height:600px;
+    overflow:auto;
+    background-color:#eff0f1;
+    border-radius:3px;
+    font-size:13;
+}
+
+blockquote{
+    margin-left: 5%;
+    padding-left: 5%;
+}
+
+hr {
+    width:60%;
+    margin:0 auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+p {
+    font-size:14;
+}

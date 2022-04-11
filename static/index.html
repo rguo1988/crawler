@@ -1,0 +1,1826 @@
+<html>
+  <head>
+    <link href="./mycss.css" rel="stylesheet">
+    <base target="_blank">
+    <script src="./myjs.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="loading" style="display:none;font-size:20;">Loading...
+      <img height="30" src="loading.gif" width="30">
+    </div>
+    <div id="content">
+      <button onclick="showLoading();javascript:window.location.href='http://127.0.0.1/update';">Update</button>
+      <div href="/update" style="float: left">Last Updated Time: 2020-01-24 10:40</div>
+      <div style="float: right">
+        <i>A Crawler From Stack Overflow By Chi Zhang</i>
+      </div><br/>
+      <h1>The 10 newest Android-related questions in Stack Overflow.</h1>
+      <details>
+        <summary>1.  How to turn android tablet on and off using external hardware button?        
+          <a href="https://stackoverflow.com/questions/59889683/how-to-turn-android-tablet-on-and-off-using-external-hardware-button?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 0 </a>
+            <a>Votes: 0 </a>
+            <a>Tags: android; iot; android-things; </a>
+            <a>Asked Time: 11 mins ago</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>We are building IoT kind of machine with android tablet inside of it. We have turn on the device when machine turned on and turn off when machine turned off. Android tablet will work in kiosk mode. Is there any kind of solution for this?.</p>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>2.  Google Firebase and Analytics        
+          <a href="https://stackoverflow.com/questions/59889610/google-firebase-and-analytics?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 0 </a>
+            <a>Votes: 0 </a>
+            <a>Tags: android; firebase; google-analytics; </a>
+            <a>Asked Time: 23 mins ago</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>I am a new developer in the Android community, and I encountered a question. I added my app to the Google Firebase platform, and when I opened Google Analytics it appears as if my app automatically is connected Google Analytics without any additional setup. Does anyone know if this is normal? or should I do any additional setup to set Google Analytics correctly?</p>
+<p>Thank you!</p>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>3.  PWA crashes after install        
+          <a href="https://stackoverflow.com/questions/59889590/pwa-crashes-after-install?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 0 </a>
+            <a>Votes: 0 </a>
+            <a>Tags: android; progressive-web-apps; </a>
+            <a>Asked Time: 25 mins ago</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>I got my PWA setup based on steps from pwabuilder but every time the completes Add to Homescreen, the PWA tries to open and crashes. It also crashes the play store or even system ui. I tried this on 3 different android devices and all of them gave the same results, they were a Samsung Galaxy S7 and Galaxy a20's. The PWA installs and works fine on desktop google chrome. Has anyone ran into issues with PWA causing crashes? My manifest and service worker are basic as can be.</p>
+<p>manifest</p>
+<pre><code>   {
+    "dir": "ltr",
+    "lang": "en",
+    "name": "BreederCloudPro: Dog Breeding Software",
+    "scope": "https://breedercloudpro.com",
+    "display": "standalone",
+    "start_url": "https://breedercloudpro.com/dashboard?pwa",
+    "short_name": "BreederCloudPro",
+    "theme_color": "#3c61c5",
+    "description": "Web-based dog breeding and kennel management software",
+    "orientation": "portrait-primary",
+    "background_color": "#ffffff",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images_v2/app_web/Square44x44Logo.scale-100.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+</code></pre>
+<p>plus more images here but I didn't wanna past the entire file.</p>
+<p>Calling the service worker</p>
+<pre><code>&lt;script type="text/javascript"&gt;
+if ("serviceWorker" in navigator) {
+  if (navigator.serviceWorker.controller) {
+
+  } else {
+    navigator.serviceWorker
+      .register("app_web_sw.js", {
+        scope: "https://breedercloudpro.com"
+      })
+      .then(function (reg) {
+        //console.log("service worker installed");
+      });
+  }
+}
+&lt;/script&gt;
+</code></pre>
+<p>Calling the manifest file
+</p>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>4.  Why does my select menu show up padded on my actual phone but not my chrome phone emulator?        
+          <a href="https://stackoverflow.com/questions/59889585/why-does-my-select-menu-show-up-padded-on-my-actual-phone-but-not-my-chrome-phon?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 0 </a>
+            <a>Votes: 0 </a>
+            <a>Tags: android; html; css; google-chrome; drop-down-menu; </a>
+            <a>Asked Time: 26 mins ago</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>I have an flask app that generates the following select box: </p>
+<pre><code>&lt;select id="ptype1-select" name="ptype1-select"&gt;
+  &lt;option value=""&gt;--select--&lt;/option&gt;
+  &lt;option value="normal"&gt;normal&lt;/option&gt;
+  &lt;option value="fire"&gt;fire&lt;/option&gt;
+  &lt;! –– several more options here ––&gt;
+&lt;/select&gt;
+</code></pre>
+<p>When I look at this select box on my Samsung S8 android in Chrome, the options are very padded.  However when I render using the android emulator build into Chrome on my laptop, the options are not padded.  When I use CSS to alter the padding of the options, the CSS changes I make are reflected in the emulator on my laptop, but not in the android itself.</p>
+<p>Why does the select box look so different on an android as opposed to in an android emulator?  Is there a way I can reduce the padding that appears on the android?</p>
+<p>On Samsung S8 Android on Chrome</p>
+<p><a href="https://i.stack.imgur.com/xz7wcm.jpg" rel="nofollow noreferrer"><img alt="Android select menu" src="https://i.stack.imgur.com/xz7wcm.jpg"/></a></p>
+<p>On Android Emulator option in Chrome on Laptop</p>
+<p><a href="https://i.stack.imgur.com/tHzmxm.png" rel="nofollow noreferrer"><img alt="Emulator select menu" src="https://i.stack.imgur.com/tHzmxm.png"/></a></p>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>5.  How do I make my Flutter app expose 2 launcher entry points?        
+          <a href="https://stackoverflow.com/questions/59889580/how-do-i-make-my-flutter-app-expose-2-launcher-entry-points?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 0 </a>
+            <a>Votes: 0 </a>
+            <a>Tags: android; flutter; </a>
+            <a>Asked Time: 26 mins ago</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>I'm building a Flutter app, caring mostly about Android for now. I want to expose 2 entry points, which in the classic Android world would be two activities declared in the Manifest with:</p>
+<pre class="lang-xml prettyprint-override"><code>&lt;category android:name="android.intent.category.LAUNCHER" /&gt;
+</code></pre>
+<p>I tried to find instructions for the equivalent for Flutter, but did not find much documented. I'm guessing I would have to add a new activity in the Android project and somehow start my activity with a route following the documentation about <a href="https://flutter.dev/docs/get-started/flutter-for/android-devs#how-do-i-handle-incoming-intents-from-external-applications-in-flutter" rel="nofollow noreferrer">intent handling</a>? It seems a bit hacky and I didn't get it working yet, is there a better way?</p>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>6.  Please I want to generate android apk and I have this error, help me to fix it. I use Ionic 4        
+          <a href="https://stackoverflow.com/questions/59889554/please-i-want-to-generate-android-apk-and-i-have-this-error-help-me-to-fix-it?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 0 </a>
+            <a>Votes: 0 </a>
+            <a>Tags: android; ionic-framework; apk; cordova-plugins; ionic4; </a>
+            <a>Asked Time: 30 mins ago</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>d:\Projets-et-Formations\IONIC\GApp&gt;ionic cordova build android</p>
+<blockquote>
+<p>cordova platform add android --save
+  Using cordova-fetch for cordova-android@^8.0.0
+  Adding android project...
+  Creating Cordova project for the Android platform:
+          Path: platforms\android
+          Package: io.ionic.starter
+          Name: Illimi_na_kowa
+          Activity: MainActivity
+          Android target: android-28
+  Subproject Path: CordovaLib
+  Subproject Path: app
+  Android project created with cordova-android@8.1.0
+  Installing "cordova-plugin-app-preferences" for android
+  Failed to install 'cordova-plugin-app-preferences': CordovaError: Using "requireCordovaModule" to load non-cordova module "path" is not supported. Instead, add this module to your dependencies and use regular "require" to load it.<br/>
+      at Context.requireCordovaModule (C:\Users\ss\AppData\Roaming\npm\node_modules\cordova\node_modules\cordova-lib\src\hooks\Context.js:57:15)
+      at module.exports (d:\Projets-et-Formations\IONIC\GApp\plugins\cordova-plugin-app-preferences\bin\before_plugin_install.js:6:14)
+      at runScriptViaModuleLoader (C:\Users\ss\AppData\Roaming\npm\node_modules\cordova\node_modules\cordova-lib\src\hooks\HooksRunner.js:181:32)
+      at runScript (C:\Users\ss\AppData\Roaming\npm\node_modules\cordova\node_modules\cordova-lib\src\hooks\HooksRunner.js:157:16)
+      at C:\Users\ss\AppData\Roaming\npm\node_modules\cordova\node_modules\cordova-lib\src\hooks\HooksRunner.js:125:20<br/>
+  Using "requireCordovaModule" to load non-cordova module "path" is not supported. Instead, add this module to your dependencies and use regular "require" to load it.
+      at process._tickCallback (internal/process/next_tick.js:68:7)
+  [ERROR] An error occurred while running subprocess cordova.</p>
+</blockquote>
+<pre><code>    cordova platform add android --save exited with exit code 1.
+
+    Re-running this command with the --verbose flag may provide more information.
+</code></pre>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>7.  Keep toolbar and don't resize background image when keyboard appears        
+          <a href="https://stackoverflow.com/questions/59889516/keep-toolbar-and-dont-resize-background-image-when-keyboard-appears?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 0 </a>
+            <a>Votes: 0 </a>
+            <a>Tags: android; android-studio; android-layout; </a>
+            <a>Asked Time: 37 mins ago</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p><strong>Hi, guys, i have an issue:</strong></p>
+<p>I have a Chat Layout like WhatsApp with <em>SwipeBackLayout</em> as parent layout, the problem is that when my edit text get focus, the keyboard push up it and the background get resized.
+I have used <code>android:windowSoftInputMode="adjustPan"</code> and it works but the toolbar leaves the screen.
+Also I have tried to set the background image in the window of the activity in <code>styles</code> with <code>&lt;item name="android:windowBackground"&gt;@drawable/user_chat_background&lt;/item&gt;</code> but the SwipeBackLayout get lost its transparency, and i don't want that.</p>
+<p><strong>Screenshots:</strong></p>
+<p><em>Without keyboard</em></p>
+<p><a href="https://i.imgur.com/K66jHR4.png" rel="nofollow noreferrer">https://i.imgur.com/K66jHR4.png</a></p>
+<p><em>When keyboard appears</em></p>
+<p><a href="https://imgur.com/vfUeBkt.png" rel="nofollow noreferrer">https://imgur.com/vfUeBkt.png</a></p>
+<p>Sorry, i can't post images yet :c</p>
+<p><strong>This is my activity_layout code:</strong></p>
+<pre><code>&lt;com.gw.swipeback.SwipeBackLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:directionMode="left"
+    app:isSwipeFromEdge="true"
+    app:maskAlpha="180"
+    app:swipeBackFactor="0.5"
+    tools:context=".activities.ChatActivity"&gt;
+
+    &lt;RelativeLayout
+        android:id="@+id/parent_layout"
+        android:layout_width="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/user_chat_background"
+        android:layout_height="match_parent"&gt;
+
+        &lt;androidx.appcompat.widget.Toolbar
+            android:id="@+id/chat_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:contentInsetStart="4dp"&gt;
+
+            &lt;RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"&gt;
+
+                &lt;androidx.cardview.widget.CardView
+                    android:id="@+id/card_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginBottom="4dp"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"&gt;
+
+                    &lt;LinearLayout
+                        android:id="@+id/layout_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/toolbar_ripple"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="3dp"&gt;
+
+                        &lt;ImageView
+                            android:id="@+id/arrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_arrow_back" /&gt;
+
+                        &lt;de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/custom_profile_image"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:cropToPadding="true"
+                            android:src="@drawable/profile_image"
+                            android:transitionName="@string/profile_image_shared" /&gt;
+                    &lt;/LinearLayout&gt;
+
+                &lt;/androidx.cardview.widget.CardView&gt;
+
+
+                &lt;TextView
+                    android:id="@+id/custom_profile_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@id/card_view"
+                    android:text="Display username"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:transitionName="@string/user_name_shared" /&gt;
+
+                &lt;TextView
+                    android:id="@+id/custom_user_last_seen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/custom_profile_name"
+                    android:layout_toRightOf="@id/card_view"
+                    android:text="Last seen"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="14sp"
+                    android:transitionName="@string/status_shared" /&gt;
+
+            &lt;/RelativeLayout&gt;
+
+        &lt;/androidx.appcompat.widget.Toolbar&gt;
+
+        &lt;androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/private_messages_list_of_users"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/my_linear_layout"
+            android:isScrollContainer="false"
+            android:layout_below="@id/chat_toolbar"&gt;
+        &lt;/androidx.recyclerview.widget.RecyclerView&gt;
+
+        &lt;LinearLayout
+            android:id="@+id/my_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="1dp"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:weightSum="30"&gt;
+
+            &lt;androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="25.8"
+                app:cardCornerRadius="25dp"&gt;
+
+                &lt;LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:orientation="horizontal"
+                    android:weightSum="8"&gt;
+
+                    &lt;LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.1"
+                        android:gravity="bottom"
+                        android:paddingStart="2dp"
+                        android:paddingEnd="2dp"
+                        android:paddingBottom="6dp"&gt;
+
+                        &lt;ImageButton
+                            android:id="@+id/emoji"
+                            android:layout_width="match_parent"
+                            android:layout_height="36dp"
+                            android:background="@drawable/icons_ripple"
+                            android:onClick="emojiAction"
+                            android:src="@drawable/ic_emoji" /&gt;
+                    &lt;/LinearLayout&gt;
+
+
+                    &lt;EditText
+                        android:id="@+id/input_message"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="4.8"
+                        android:background="#00000000"
+                        android:hint="@string/type_a_message"
+                        android:inputType="textCapSentences|textMultiLine"
+                        android:maxLength="2000"
+                        android:maxLines="6"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="12dp"
+                        android:scrollbarStyle="outsideInset"
+                        android:scrollbars="vertical"
+                        android:textColorHighlight="#18DD7D"
+                        android:textSize="18sp" /&gt;
+
+                    &lt;LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.1"
+                        android:gravity="bottom"
+                        android:orientation="horizontal"
+                        android:paddingStart="2dp"
+                        android:paddingEnd="2dp"
+                        android:paddingBottom="6dp"
+                        android:weightSum="2"&gt;
+
+                        &lt;ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="36dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/icons_ripple"
+                            android:src="@drawable/ic_attach_file" /&gt;
+
+                        &lt;ImageButton
+                            android:id="@+id/camera_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="36dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/icons_ripple"
+                            android:src="@drawable/ic_camera" /&gt;
+                    &lt;/LinearLayout&gt;
+                &lt;/LinearLayout&gt;
+
+            &lt;/androidx.cardview.widget.CardView&gt;
+
+            &lt;ImageButton
+                android:id="@+id/send_message_button"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="4.2"
+                android:background="@drawable/chat_ripple"
+                android:src="@drawable/ic_mic" /&gt;
+
+        &lt;/LinearLayout&gt;
+    &lt;/RelativeLayout&gt;
+&lt;/com.gw.swipeback.SwipeBackLayout&gt;```
+</code></pre>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>8.  Error inflating class com.google.android.material.textfield.TextInputLayout Android Studio 3.5        
+          <a href="https://stackoverflow.com/questions/59889281/error-inflating-class-com-google-android-material-textfield-textinputlayout-andr?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 0 </a>
+            <a>Votes: 0 </a>
+            <a>Tags: android; android-studio-3.5; </a>
+            <a>Asked Time: 1 hour ago</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>I am using android studio 3.5 and this is the error i am getting for my TextInputLayout. The layout was working from the beginning but after sometime now the app crashes with the error </p>
+<pre><code>android.view.InflateException: Binary XML file line #18: Binary XML file line #18: Error inflating class com.google.android.material.textfield.TextInputLayout
+Caused by: android.view.InflateException: Binary XML file line #18: Error inflating class com.google.android.material.textfield.TextInputLayout
+Caused by: java.lang.reflect.InvocationTargetException
+    at java.lang.reflect.Constructor.newInstance0(Native Method)
+    at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+    at android.view.LayoutInflater.createView(LayoutInflater.java:658)
+    at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:801)
+    at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:741)
+    at android.view.LayoutInflater.rInflate(LayoutInflater.java:874)
+    at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:835)
+    at android.view.LayoutInflater.rInflate(LayoutInflater.java:877)
+    at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:835)
+    at android.view.LayoutInflater.inflate(LayoutInflater.java:515)
+    at android.view.LayoutInflater.inflate(LayoutInflater.java:423)
+</code></pre>
+<p>My xml for the layout is </p>
+<pre><code>&lt;com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:hintEnabled="true"
+        android:theme="@style/TextLabel"&gt;
+
+
+        &lt;com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phone_number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:hint="@string/phone_number"
+            android:inputType="number" /&gt;
+
+
+    &lt;/com.google.android.material.textfield.TextInputLayout&gt;
+</code></pre>
+<p>My Styles.xml is :</p>
+<pre><code>&lt;resources&gt;
+
+&lt;!-- Base application theme. --&gt;
+&lt;style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"&gt;
+    &lt;!-- Customize your theme here. --&gt;
+    &lt;item name="colorPrimary"&gt;@color/colorPrimary&lt;/item&gt;
+    &lt;item name="colorPrimaryDark"&gt;@color/colorPrimaryDark&lt;/item&gt;
+    &lt;item name="colorAccent"&gt;@color/colorAccent&lt;/item&gt;
+&lt;/style&gt;
+
+&lt;style name="AppTheme.NoActionBar"&gt;
+    &lt;item name="windowActionBar"&gt;false&lt;/item&gt;
+    &lt;item name="windowNoTitle"&gt;true&lt;/item&gt;
+&lt;/style&gt;
+
+&lt;style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" /&gt;
+
+&lt;style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" /&gt;
+
+
+&lt;style name="TextLabel" parent="Widget.MaterialComponents.TextInputLayout.FilledBox"&gt;
+
+    &lt;item name="colorControlActivated"&gt;@color/colorPrimary&lt;/item&gt;
+&lt;/style&gt;
+</code></pre>
+<p></p>
+<p>I have also implemented the following dependencies but it did not help</p>
+<pre><code>implementation 'com.google.android.material:material:1.1.0-alpha06'
+implementation 'com.google.android.material:material:1.0.0'
+</code></pre>
+<p>Could there also be an error with this new androidx as i have been receiving the same errors on different layouts which would have worked before and then after some time the app starts working again?</p>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>9.  Android Management API policy kiosk mode - System Update not applied during maintenance window        
+          <a href="https://stackoverflow.com/questions/59889267/android-management-api-policy-kiosk-mode-system-update-not-applied-during-main?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 0 </a>
+            <a>Votes: 0 </a>
+            <a>Tags: android; kiosk; android-management-api; android-update-app; </a>
+            <a>Asked Time: 1 hour ago</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>I am now to using Android Managment Api to create Kiosk devices for my company. I wanted to create Kiosk device with my kiosk App locked to screen and the screen will never dim (this achieved within kiosk App with the android:keepScreenOn="true" setting). System/App updates are supposed to be applied during the daily maintenance window of 2am - 4am. Below is the policy I created based on what I learnt.</p>
+<pre><code>  "applications": [
+{
+  "packageName": "com.achieversprofile.facaccess",
+  "installType": "REQUIRED_FOR_SETUP",
+  "lockTaskAllowed": true,
+  "defaultPermissionPolicy": "GRANT"
+}
+</code></pre>
+<p>],</p>
+<pre><code>  "systemUpdate": {
+"type": "WINDOWED",
+"startMinutes": 120,
+"endMinutes": 240
+</code></pre>
+<p>},</p>
+<p>The kiosk device was running well and App updates we released via google play were correctly updated. However, recently, there was a system update which was not automatically applied during the maintenance window.</p>
+<p>The below system update screen was loaded to the foreground and after some time the kiosk device screen turned black as a result. May I know if there is anything else I need to add to my policy to enable system updates to be applied during the maintenance window as well? Or is there anything to set on the device? I am using Samsung A10.</p>
+<p><a href="https://i.stack.imgur.com/FPtrO.jpg" rel="nofollow noreferrer">System Update Notification</a></p>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>10.  how to update texts in an activity        
+          <a href="https://stackoverflow.com/questions/59888988/how-to-update-texts-in-an-activity?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 1 </a>
+            <a>Votes: 1 </a>
+            <a>Tags: java; android; sqlite; </a>
+            <a>Asked Time: 2 hours ago</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>I'm working on an an app that contain sqlite table , so we can add items to the table and displayed in listview then each item has it's own details that could be displayed in a detail activity, and there is an option that allow the user to edit this details but after pressing the update button the details are not being updated till restarting the activity or go back to the listview how can i get the update directly in the acitvity </p>
+</div></blockquote><br/><hr/><br/><br/>
+      </details><br/>
+      <h1>The 10 most voted Android-related questions posted in the past week in Stack Overflow.</h1>
+      <details>
+        <summary>1.  What is the proper replacement for ViewModelProviders deprecation?        
+          <a href="https://stackoverflow.com/questions/59810645/what-is-the-proper-replacement-for-viewmodelproviders-deprecation?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 1 </a>
+            <a>Votes: 5 </a>
+            <a>Tags: java; android; android-fragments; </a>
+            <a>Asked Time: Jan 19</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>I switched from using ViewModelProviders.of(this) due to said being depreciated.  I researched other questions and used code from the responses.  All of the code came through  without errors, but when I try to run the application, I get an exception.  </p>
+<p>Error occurring here.  </p>
+<pre><code>Process: com.example.checkingin, PID: 555
+    java.lang.RuntimeException: Cannot create an instance of class com.example.checkingin.MainViewModel
+        at androidx.lifecycle.ViewModelProvider$AndroidViewModelFactory.create(ViewModelProvider.java:275)
+        at androidx.lifecycle.SavedStateViewModelFactory.create(SavedStateViewModelFactory.java:106)
+        at androidx.lifecycle.ViewModelProvider.get(ViewModelProvider.java:185)
+        at androidx.lifecycle.ViewModelProvider.get(ViewModelProvider.java:150)
+        at com.example.checkingin.CheckInRecentList.onActivityCreated(CheckInRecentList.java:123)
+</code></pre>
+<p><strong>CheckInRecentList</strong></p>
+<pre><code>package com.example.checkingin;
+import android.content.Context;
+import android.net.Uri;
+import android.os.Bundle;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.TextView;
+import java.util.List;
+
+/**
+ * A simple {@link Fragment} subclass.
+ * Activities that contain this fragment must implement the
+ * {@link CheckInRecentList.OnFragmentInteractionListener} interface
+ * to handle interaction events.
+ * Use the {@link CheckInRecentList#newInstance} factory method to
+ * create an instance of this fragment.
+ */
+public class CheckInRecentList extends Fragment {
+    // TODO: Rename parameter arguments, choose names that match
+    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+    private static final String ARG_PARAM1 = "param1";
+    private static final String ARG_PARAM2 = "param2";
+    private RecyclerView recyclerView;
+    private RecyclerView.Adapter checkInListAdapter;
+    //private RecyclerView.LayoutManager layoutManager;
+    // TODO: Rename and change types of parameters
+    private String mParam1;
+    private String mParam2;
+    private MainViewModel mViewModel;
+    private CheckInListAdapter adapter;
+    private TextView checkInLastDateTime;
+    private TextView checkInTitle;
+    private TextView checkInDestinationName;
+    private TextView checkInComments;
+
+    private OnFragmentInteractionListener mListener;
+
+    public CheckInRecentList() {
+        // Required empty public constructor
+    }
+
+    /**
+     * Use this factory method to create a new instance of
+     * this fragment using the provided parameters.
+     *
+     * @param param1 Parameter 1.
+     * @param param2 Parameter 2.
+     * @return A new instance of fragment CheckInRecentList.
+     */
+    // TODO: Rename and change types and number of parameters
+    public static CheckInRecentList newInstance(String param1, String param2) {
+        CheckInRecentList fragment = new CheckInRecentList();
+        Bundle args = new Bundle();
+        args.putString(ARG_PARAM1, param1);
+        args.putString(ARG_PARAM2, param2);
+        fragment.setArguments(args);
+        return fragment;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if (getArguments() != null) {
+            mParam1 = getArguments().getString(ARG_PARAM1);
+            mParam2 = getArguments().getString(ARG_PARAM2);
+        }
+    //      These were originally set up from the recycler view add to the fragment
+    //          recyclerView = findViewById(R.id.check_in_recent_recycler_view);
+
+                // use this setting to improve performance if you know that changes
+                // in content do not change the layout size of the RecyclerView
+                //recyclerView.setHasFixedSize(true);
+/*
+                // use a linear layout manager
+                layoutManager = new LinearLayoutManager(this);
+                recyclerView.setLayoutManager(layoutManager);
+*/
+                // specify an adapter (see also next example)
+                //checkInListAdapter = new CheckInListAdapter();
+     //           recyclerView.setAdapter(checkInListAdapter);
+            }
+
+   @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_check_in_recent_list, container, false);
+    }
+
+    // TODO: Rename method, update argument and hook method into UI event
+    public void onButtonPressed(Uri uri) {
+        if (mListener != null) {
+            mListener.onFragmentInteraction(uri);
+        }
+    }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        if (context instanceof OnFragmentInteractionListener) {
+            mListener = (OnFragmentInteractionListener) context;
+        } else {
+            throw new RuntimeException(context.toString()
+                    + " must implement OnFragmentInteractionListener");
+        }
+    }
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mViewModel = new ViewModelProvider(this).get(MainViewModel.class);**
+
+        checkInLastDateTime = getView().findViewById(R.id.checkInLastDateTime);
+        checkInTitle = getView().findViewById(R.id.checkInTitle);
+        checkInDestinationName = getView().findViewById(R.id.checkInDestinationName);
+        checkInComments = getView().findViewById(R.id.checkInComments);
+
+        listenerSetup();
+        observerSetup();
+        recyclerSetup();
+    }
+    @Override
+    public void onDetach() {
+        super.onDetach();
+        mListener = null;
+    }
+
+    /**
+     * This interface must be implemented by activities that contain this
+     * fragment to allow an interaction in this fragment to be communicated
+     * to the activity and potentially other fragments contained in that
+     * activity.
+     * &lt;p&gt;
+     * See the Android Training lesson &lt;a href=
+     * "http://developer.android.com/training/basics/fragments/communicating.html"
+     * &gt;Communicating with Other Fragments&lt;/a&gt; for more information.
+     */
+    public interface OnFragmentInteractionListener {
+        // TODO: Update argument type and name
+        void onFragmentInteraction(Uri uri);
+    }
+    private void clearFields() {
+        checkInLastDateTime.setText("");
+        checkInDestinationName.setText("");
+        checkInTitle.setText("");
+        checkInComments.setText("");
+    }
+
+    private void listenerSetup() {
+
+        Button editCheckInButton = getView().findViewById(R.id.checkInEditButton);
+        Button resendCheckInButton = getView().findViewById(R.id.checkInResendButton);
+
+        editCheckInButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+        //put in edit check in logic
+            }
+        });
+        resendCheckInButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+        //put in resend logic
+            }
+        });
+
+        }
+
+    private void observerSetup() {
+
+        mViewModel.getAllCheckIn().observe(getViewLifecycleOwner(), new Observer&lt;List&lt;CheckInTable&gt;&gt; ()
+{
+            @Override
+            public void onChanged(@Nullable final List&lt;CheckInTable&gt; checkIn) {
+                adapter.setCheckInList(checkIn);
+            }
+        });
+
+        mViewModel.getSearchCheckInResults().observe(getViewLifecycleOwner(), new Observer&lt;List&lt;CheckInTable&gt;&gt;() {
+            @Override
+            public void onChanged(@Nullable final List&lt;CheckInTable&gt; checkIn) {
+
+                        if (checkIn.size() &gt; 0) {
+
+                            checkInLastDateTime.setText(checkIn.get(0).getCheckInLastDateTime());
+                            checkInDestinationName.setText(checkIn.get(0).getCheckInDestinationName());
+                            checkInTitle.setText(checkIn.get(0).getCheckInTitle());
+                            checkInComments.setText(checkIn.get(0).getCheckInComments());
+                        } else {
+                            checkInLastDateTime.setText("None Found");
+                        }
+                    }
+                });
+    }
+    private void recyclerSetup() {
+
+        RecyclerView recyclerView;
+
+        adapter = new CheckInListAdapter(R.layout.recycler_view_item);
+        recyclerView = getView().findViewById(R.id.check_in_recent_recycler_view);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        recyclerView.setAdapter(adapter);
+    }
+}
+
+</code></pre>
+<p><strong>MainViewModel</strong></p>
+<pre><code>package com.example.checkingin;
+import android.app.Application;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MutableLiveData;
+import java.util.List;
+
+public class MainViewModel extends AndroidViewModel {
+
+    private CheckInRecipientsTableRepository checkInRecipientsTableRepository;
+    private LiveData&lt;List&lt;CheckInRecipientsTable&gt;&gt; allRecipients;
+    private MutableLiveData&lt;List&lt;CheckInRecipientsTable&gt;&gt; searchRecipientResults;
+
+    private ContactGroupsTableRepository contactGroupsTableRepository;
+    private LiveData&lt;List&lt;ContactGroupsTable&gt;&gt; allContactGroups;
+    private MutableLiveData&lt;List&lt;ContactGroupsTable&gt;&gt; searchContactGroupsResults;
+
+    private CheckInTableRepository checkInTableRepository;
+    private LiveData&lt;List&lt;CheckInTable&gt;&gt; allCheckIn;
+    private MutableLiveData&lt;List&lt;CheckInTable&gt;&gt; searchCheckInResults;
+
+    public MainViewModel (Application application) {
+        super(application);
+
+        checkInRecipientsTableRepository = new CheckInRecipientsTableRepository(application);
+        allRecipients = checkInRecipientsTableRepository.getAllCheckInRecipients();
+        searchRecipientResults = checkInRecipientsTableRepository.getSearchRecipientResults();
+
+        checkInTableRepository = new CheckInTableRepository(application);
+        allCheckIn = checkInTableRepository.getAllCheckIn();
+        searchCheckInResults = checkInTableRepository.getSearchCheckInResults();
+
+        contactGroupsTableRepository = new ContactGroupsTableRepository(application);
+        allContactGroups = contactGroupsTableRepository.getAllContactGroups();
+        searchContactGroupsResults = contactGroupsTableRepository.getSearchContactGroupsResults();
+    }
+
+
+    MutableLiveData&lt;List&lt;CheckInRecipientsTable&gt;&gt; getSearchRecipientResults() {
+        return getSearchRecipientResults();
+    }
+    LiveData&lt;List&lt;CheckInRecipientsTable&gt;&gt; getAllCheckInRecipients() {
+        return getAllCheckInRecipients();
+    }
+
+    public void insertCheckInRecipientsTable(CheckInRecipientsTable checkInRecipientsTable) {
+        checkInRecipientsTableRepository.insertCheckInRecipientsTable(checkInRecipientsTable);
+    }
+    public void deleteCheckInRecipient(int checkInPrimaryKey) {
+        checkInRecipientsTableRepository.deleteCheckInRecipient(checkInPrimaryKey);
+    }
+    public void findCheckInRecipient(int checkInPrimaryKey) {
+        checkInRecipientsTableRepository.findCheckInRecipient(checkInPrimaryKey);
+    }
+
+
+    MutableLiveData&lt;List&lt;ContactGroupsTable&gt;&gt; getSearchContactGroupsResults() {
+        return getSearchContactGroupsResults();
+    }
+    LiveData&lt;List&lt;ContactGroupsTable&gt;&gt; getAllContactGroups() {
+        return getAllContactGroups();
+    }
+
+    public void insertContactGroupsTable(ContactGroupsTable contactGroupsTable) {
+        contactGroupsTableRepository.insertContactGroups(contactGroupsTable);
+    }
+    public void deleteContactGroups(int contactGroupsTablePrimaryKey) {
+        contactGroupsTableRepository.deleteContactGroups(contactGroupsTablePrimaryKey);
+    }
+    public void findContactGroups(int contactGroupsTablePrimaryKey) {
+        contactGroupsTableRepository.findContactGroups(contactGroupsTablePrimaryKey);
+    }
+
+    MutableLiveData&lt;List&lt;CheckInTable&gt;&gt; getSearchCheckInResults() {
+        return getSearchCheckInResults();
+    }
+    LiveData&lt;List&lt;CheckInTable&gt;&gt; getAllCheckIn() {
+        return getAllCheckIn();
+    }
+
+    public void insertCheckInTable(CheckInTable checkInTable) {
+        checkInTableRepository.insertCheckIn(checkInTable);
+    }
+    public void deleteCheckIn(int checkInTablePrimaryKey) {
+        checkInTableRepository.deleteCheckIn(checkInTablePrimaryKey);
+    }
+    public void findCheckIn(int checkInTablePrimaryKey) {
+        checkInTableRepository.findCheckIn(checkInTablePrimaryKey);
+    }
+}
+</code></pre>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>2.  Firebase Messaging Service Not Working On Older Android        
+          <a href="https://stackoverflow.com/questions/59808320/firebase-messaging-service-not-working-on-older-android?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 1 </a>
+            <a>Votes: 4 </a>
+            <a>Tags: java; android; </a>
+            <a>Asked Time: Jan 19</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>Recently I`ve migrated GCM to FCM and after some struggle, I've managed to make everything work with the help of this great community.</p>
+<p>Now when I tested notifications on older version of Android ( Nougat) it doesn't work, app just crash, I've found out that its something related to versions as older ones doesn't support channel managers.</p>
+<p>I've found few solutions on StackOverflow but I haven't find a suitable one for my problem so I was hoping someone could toss me a hint or solution.</p>
+<p>I appreciate all the answers and help.</p>
+<pre><code>public class MessagingService extends FirebaseMessagingService {
+
+private static final String TAG = "FCM Message";
+
+public MessagingService() {
+    super();
+}
+
+
+
+@TargetApi(Build.VERSION_CODES.O)
+@RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
+@Override
+public void onMessageReceived(RemoteMessage remoteMessage) {
+    super.onMessageReceived(remoteMessage);
+
+    String message = remoteMessage.getData().get("team");
+
+
+
+    Intent intent=new Intent(getApplicationContext(),MainActivity.class);
+    String CHANNEL_ID="channel";
+    Uri defaultSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+    NotificationChannel notificationChannel=new NotificationChannel(CHANNEL_ID,"channel",NotificationManager.IMPORTANCE_HIGH);
+    PendingIntent pendingIntent=PendingIntent.getActivity(getApplicationContext(),1,intent,0);
+    Notification notification=new Notification.Builder(getApplicationContext(),CHANNEL_ID)
+            .setContentText(message)
+            //  .setContentTitle(title)
+            .setSound(defaultSound)
+            .setContentIntent(pendingIntent)
+            .setChannelId(CHANNEL_ID)
+            .setSmallIcon(android.R.drawable.sym_action_chat)
+            .setWhen(System.currentTimeMillis())
+            .setPriority(Notification.PRIORITY_MAX)
+            .build();
+
+    NotificationManager notificationManager=(NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+    notificationManager.createNotificationChannel(notificationChannel);
+    notificationManager.notify(1,notification);
+}
+</code></pre>
+<p>}</p>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>3.  How to publish library aar file on the basis of current build variant selected in android us…        
+          <a href="https://stackoverflow.com/questions/59877511/how-to-publish-library-aar-file-on-the-basis-of-current-build-variant-selected-i?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 0 </a>
+            <a>Votes: 4 </a>
+            <a>Tags: android; build.gradle; publish; aar; build-variant; </a>
+            <a>Asked Time: 15 hours ago</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>I have three build variants - staging, debug and production in android library. I need to publish the aar file on maven but the constraint is that if currently selected build variant is debug or staging then only debugAar should publish and if release is selected then releaseAar should publish. By default gradle only publishes releaseAar.</p>
+<p>Currently everytime I want debug variant I need to change "artifact(bundleReleaseAar)" to "artifact(bundleDebugAar)"</p>
+<pre><code>apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
+apply plugin: 'com.jfrog.artifactory'
+apply plugin: 'dexguard'
+
+def libraryGroupId = '*.*'
+def libraryArtifactId = 'xyz'
+def libraryVersion = projectxyzVersion
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+        flatDir { dirs 'lib' }
+    }
+    dependencies {
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath ':dexguard:'
+    }
+}
+
+android {
+    compileSdkVersion projectCompileSdkVersion
+
+
+    defaultConfig {
+        minSdkVersion projectMinSdkVersion
+        targetSdkVersion projectTargetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        debug {
+            /*ext.enableHanselLocalization = false
+            ext.enableHansel = false*/
+            debuggable true
+            buildConfigField ('String', 'BUILD_TYPE_STRING', '"debug"')
+
+            //todo only for testing, remove while making final aar
+            proguardFile getDefaultDexGuardFile('dexguard-library-debug.pro')
+            proguardFile 'dexguard-project.txt'
+        }
+        staging {
+            debuggable true
+            buildConfigField ('String', 'BUILD_TYPE_STRING', '"staging"')
+            /*ext.enableHanselLocalization = false
+            ext.enableHansel = false*/
+        }
+        release {
+            /*ext.enableHanselLocalization = false
+            ext.enableHansel = false*/
+            buildConfigField ('String', 'BUILD_TYPE_STRING', '"release"')
+//             minifyEnabled true
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFile getDefaultDexGuardFile('dexguard-library-release.pro')
+            proguardFile 'dexguard-project.txt'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation "com.android.support:appcompat-v7:${projectSupportLibraryVersion}"
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation ("com.google.android.gms:play-services-safetynet:${projectSafetyNetVersion}") {
+        exclude group: "androidx.core"
+    }
+    implementation "com.android.volley:volley:${projectVolleyVersion}"
+    implementation "com.google.code.gson:gson:${projectGsonVersion}"
+}
+
+publishing {
+    publications {
+        aar(MavenPublication) {
+            groupId libraryGroupId
+            version libraryVersion
+            artifactId libraryArtifactId
+
+            artifact(bundleReleaseAar)
+
+            pom.withXml {
+                def dependenciesNode = asNode().appendNode('dependencies')
+                def deps = configurations.implementation.allDependencies + configurations.compile.allDependencies + configurations.api.allDependencies
+                deps.each {
+                    if (it.group != null &amp;&amp; (it.name != null || "unspecified".equals(it.name)) &amp;&amp; it.version != null &amp;&amp; !"unspecified".equals(it.version)) {
+                        def dependencyNode = dependenciesNode.appendNode('dependency')
+                        dependencyNode.appendNode('groupId', it.group)
+                        dependencyNode.appendNode('artifactId', it.name)
+                        dependencyNode.appendNode('version',it.version)
+                    }
+                }
+            }
+        }
+    }
+}
+
+artifactory {
+    contextUrl = 'https://artifactory.paytm.in/'
+    publish {
+        repository {
+            repoKey = "xyz-android"
+
+            username = xyz_artifactory_username
+            password = xyz_artifactory_password
+        }
+        defaults {
+            publications('aar')
+            publishArtifacts = true
+
+            properties = ['qa.level': 'basic', 'q.os': 'android', 'dev.team': 'core']
+            publishPom = true
+
+        }
+    }
+}
+</code></pre>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>4.  how to check BLE Gatt Client Mode is supported by device?        
+          <a href="https://stackoverflow.com/questions/59873909/how-to-check-ble-gatt-client-mode-is-supported-by-device?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 1 </a>
+            <a>Votes: 4 </a>
+            <a>Tags: android; bluetooth-lowenergy; </a>
+            <a>Asked Time: 18 hours ago</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>In android, I have used BLE both mode as Peripheral and Client. But I want to check <code>isBLeGattClientSupported()</code></p>
+<p>As we know some devices in android are not capable to act as BLE Gatt Client so jut wants to throw an exception that such device is not able to act as client. </p>
+<p>I have the rest of the past for BLE my code is working fine for both mode, but stuck when I said to my device to act as a client and that device is not capable to act as the client. </p>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>5.  Why is Kotlin accepting a null value in an attribute declared as a non-nullable string?        
+          <a href="https://stackoverflow.com/questions/59865612/why-is-kotlin-accepting-a-null-value-in-an-attribute-declared-as-a-non-nullable?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 1 </a>
+            <a>Votes: 4 </a>
+            <a>Tags: java; android; kotlin; gson; </a>
+            <a>Asked Time: yesterday</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>I declared a <code>data class</code> like this:</p>
+<pre><code>data class Product(val name: String = "", val price: Float = 0f)
+</code></pre>
+<p>My code is:</p>
+<pre><code>val json = "{'name': null, 'price': 50.00}"
+val gson = GsonBuilder().create()
+val p = gson.fromJson(json, Product::class.java)
+println("name is ${p.name}")
+</code></pre>
+<p>The console output is: <code>name is null</code></p>
+<p>How is this possible? 
+The name attribute is not a nullable string.</p>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>6.  Selecting one from radio group value and scrolling down and some item selected automatically…        
+          <a href="https://stackoverflow.com/questions/59812051/selecting-one-from-radio-group-value-and-scrolling-down-and-some-item-selected-a?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 2 </a>
+            <a>Votes: 4 </a>
+            <a>Tags: java; android; android-recyclerview; </a>
+            <a>Asked Time: Jan 19</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>I am making an attendance system where I take the attendance using RadioGroup with two options. When I select some radio button and scroll down some other radio button gets auto-selected. If I change them upper ones also get changed. I am a beginner hope you guys can help '</p>
+<p><strong>Main class</strong> </p>
+<pre><code>public class TeacherAttendanceActivity extends AppCompatActivity implements AttendanceAdapter.AttendanceAdapterListner {
+
+    public static TeacherAttendanceActivity  teacherAttendanceActivity;
+    private static final String TAG = TeacherAttendanceActivity.class.getSimpleName();
+
+    List&lt;AttendanceModel&gt; listItems;
+    private RecyclerView recyclerView;
+    private RecyclerView.Adapter adapter;
+
+    private AttendanceAdapter attendanceAdapter;
+    ProgressDialog progressDialog;
+
+    private SQLiteHandler db;
+    private SessionManager session;
+
+    private SearchView searchView;
+    Button btnSubmit;
+    JSONObject mainObj = new JSONObject();
+    // date
+    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+    String currentDateandTime = sdf.format(new Date());
+
+    String class_id,title;
+    Boolean Error;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_teacher_attendance);
+        //get data from intent
+        class_id = super.getIntent().getExtras().getString("id"); //class_id
+        title = super.getIntent().getExtras().getString("title");
+        getSupportActionBar().setTitle("Class: "+title+", Date: "+currentDateandTime );
+
+
+
+        // SqLite database handler
+        db = new SQLiteHandler(getApplicationContext());
+        // session manager
+        session = new SessionManager(getApplicationContext());
+
+        btnSubmit=findViewById(R.id.buttonAttendanceSubmit);
+
+        btnSubmit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Error=false;
+                Gson gson=new Gson();
+                final String newDataArray=gson.toJson(listItems); // dataarray is list aaray
+
+                    for (int i = 0; i &lt; AttendanceAdapter.listItems.size(); i++){
+                    if(AttendanceAdapter.listItems.get(i).getAttendance()==null){
+                        Toast.makeText(TeacherAttendanceActivity.this, "Check attendance at roll:"+AttendanceAdapter.listItems.get(i).getRoll(), Toast.LENGTH_SHORT).show();
+                        Error =true;
+                        break;
+                    }
+
+                }
+                if (!Error){
+                    request(class_id,currentDateandTime,newDataArray);
+                }
+
+            }
+        });
+
+
+        listItems = new ArrayList&lt;&gt;();
+        attendanceAdapter = new AttendanceAdapter(listItems, this, (AttendanceAdapter.AttendanceAdapterListner) this);
+
+        recyclerView = (RecyclerView) findViewById(R.id.list_attendance);
+        recyclerView.setLayoutManager(new LinearLayoutManager(TeacherAttendanceActivity.this));
+        progressDialog = new ProgressDialog(this);
+
+        teacherAttendanceActivity = this;
+        //refresh_list(class_id);
+
+    }
+
+    @Override
+    protected void onStart() {
+        refresh_list(class_id);
+        super.onStart();
+    }
+
+    @Override
+    public void onAttendanceAdapterSelected(AttendanceModel model) {
+
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.refresh, menu);
+        getMenuInflater().inflate(R.menu.tool_bar, menu);
+
+        return true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        switch (id){
+            case R.id.action_settings:
+                Toast.makeText(getApplicationContext(),"Sittings",Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.action_logout:
+                logoutUser();
+                return true;
+            case R.id.action_about:
+                Toast.makeText(getApplicationContext(),"About",Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.action_devinfo:
+                Toast.makeText(getApplicationContext(),"Dev info",Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.refresh:
+                refresh_list(class_id);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    void logoutUser() {
+        session.setLogin(false);
+        db.deleteUsers();
+        // Launching the login activity
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
+    // refresh list
+    public void refresh_list(String id) {
+        // this method refresh list and get the json data
+        listItems.clear();
+        // adapter = new MyAdapter(listItems,getApplicationContext());
+        recyclerView.setAdapter(attendanceAdapter);
+
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        progressDialog.setMessage("Loading");
+        progressDialog.show();
+
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, ApiConfig.URL_TEACHER_ATTENDANCE+id, new Response.Listener&lt;String&gt;() {
+            @Override
+            public void onResponse(String response) {
+                progressDialog.dismiss();
+                try {
+
+                    progressDialog.hide();
+                    JSONObject jsonObject = new JSONObject(response);
+                    JSONArray jsonArray = jsonObject.getJSONArray("Data");  // finding data
+                    Log.d(TAG, String.valueOf(jsonObject));
+
+                    int len = jsonArray.length();
+                    for (int i = 0; i &lt; len; i++) {
+                        JSONObject o = jsonArray.getJSONObject(i);
+                        AttendanceModel item = new AttendanceModel(
+                                o.getString("id"),
+                                o.getString("name"),
+                                o.getString("roll"),
+                                o.getString("class_id"),
+                                o.getString("status"),
+                                null
+                        );
+                        listItems.add(item);
+
+                        //adapter = new MyAdapter(listItems,getApplicationContext());
+                        recyclerView.setAdapter(attendanceAdapter);   // setting them in list view
+
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                progressDialog.hide();
+                Toast.makeText(TeacherAttendanceActivity.this, "Failed", Toast.LENGTH_SHORT).show();
+            }
+        }) {
+            /** Passing some request headers* */
+            @Override
+            public Map getHeaders() throws AuthFailureError {
+
+                SQLiteHandler db = new SQLiteHandler(getApplicationContext());
+                HashMap&lt;String,String&gt; userDetail= db.getUserDetails();
+                String userToken = userDetail.get("token");
+                Log.d(TAG, String.valueOf(userToken));
+                HashMap headers = new HashMap();
+                headers.put("Accept", "application/json");
+                headers.put("Authorization", "Bearer "+userToken);
+                return headers;
+            }
+        };
+        stringRequest.setShouldCache(false);
+        VolleyRequest.getInstance(TeacherAttendanceActivity.this).addToRequestQueue(stringRequest);
+    }
+
+    // take attendance
+    private void request( final String classId,final String date,final String data ) {
+
+        progressDialog.setMessage("Taking attendance");
+        showDialog();
+
+        StringRequest strReq = new StringRequest(Request.Method.POST,
+                ApiConfig.URL_TEACHER_ATTENDANCE_STORE, new Response.Listener&lt;String&gt;() {
+
+            @Override
+            public void onResponse(String response) {
+                Log.d(TAG, "Login Response: " + response);
+                hideDialog();
+                try {
+                    JSONObject jObj = new JSONObject(response);
+                    boolean error = jObj.getBoolean("error");
+
+                    // Check for error node in json
+                    if (!error) {
+                        String attendance = jObj.getString("Attendance");
+                        Toast.makeText(TeacherAttendanceActivity.this, attendance, Toast.LENGTH_LONG).show();
+                        finish();
+
+                    } else {
+                        // Error in login. Get the error message
+                        String errorMsg = jObj.getString("message");
+                        Toast.makeText(TeacherAttendanceActivity.this,
+                                errorMsg, Toast.LENGTH_LONG).show();
+                    }
+                } catch (JSONException e) {
+                    // JSON error
+                    e.printStackTrace();
+                    Toast.makeText(TeacherAttendanceActivity.this, "Json error: " + e.getMessage(), Toast.LENGTH_LONG).show();
+                }
+
+            }
+        }, new Response.ErrorListener() {
+
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e(TAG, "Login Error: " + error.getMessage());
+                Toast.makeText(TeacherAttendanceActivity.this,
+                        error.getMessage(), Toast.LENGTH_LONG).show();
+                hideDialog();
+            }
+        }) {
+
+            /** Passing some request headers* */
+            @Override
+            public Map getHeaders() throws AuthFailureError {
+
+                SQLiteHandler db = new SQLiteHandler(TeacherAttendanceActivity.this);
+                HashMap&lt;String,String&gt; userDetail= db.getUserDetails();
+                String userToken = userDetail.get("token");
+                Log.d(TAG, String.valueOf(userToken));
+                HashMap headers = new HashMap();
+                headers.put("Accept", "application/json");
+                headers.put("Authorization", "Bearer "+userToken);
+                return headers;
+            }
+
+            @Override
+            protected Map&lt;String, String&gt; getParams() {
+                // Posting parameters to login url
+                Map&lt;String, String&gt; params = new HashMap&lt;String, String&gt;();
+                params.put("class_id", classId);
+                params.put("date", date);
+                params.put("data", data);
+
+                return params;
+            }
+
+        };
+        strReq.setShouldCache(false);
+        // Adding request to request queue
+        VolleyRequest.getInstance(TeacherAttendanceActivity.this).addToRequestQueue(strReq);
+    }
+    private void showDialog() {
+        if (!progressDialog.isShowing())
+            progressDialog.show();
+    }
+
+    private void hideDialog() {
+        if (progressDialog.isShowing())
+            progressDialog.dismiss();
+    }
+
+
+}
+</code></pre>
+<p><strong><em>Model class</em></strong>
+'model class for convenient  '</p>
+<pre><code>public class AttendanceModel {
+    String id,name,roll,classId,previousAttendance,attendance;
+
+
+    public AttendanceModel(String id, String name,String roll, String classId,String previousAttendance,String attedance ){
+        this.id = id;
+        this.name = name;
+        this.classId =classId;
+        this.roll=roll;
+        this.attendance=attedance;
+        this.previousAttendance=previousAttendance;
+    }
+
+    public String getAttendance() {
+        return attendance;
+    }
+
+    public String getId() {
+        return id;
+    }
+    public String getName() {
+        return name;
+    }
+    public String getRoll() {
+        return roll;
+    }
+    public String getClassId() {
+        return classId;
+    }
+    public String getPreviousAttendance(){return previousAttendance;}
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setRoll(String roll) {
+        this.roll = roll;
+    }
+
+    public void setClassId(String classId) {
+        this.classId = classId;
+    }
+
+    public void setPreviousAttendance(String previousAttendance) {
+        this.previousAttendance = previousAttendance;
+    }
+
+    public void setAttendance(String attendance) {
+        this.attendance = attendance;
+    }
+
+
+}
+</code></pre>
+<p><strong><em>Adapter class</em></strong>
+' adapter class '</p>
+<pre><code>public class AttendanceAdapter extends RecyclerView.Adapter&lt;AttendanceAdapter.ViewHolder&gt;  implements Filterable
+
+{
+    // date
+    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+    String currentDateandTime = sdf.format(new Date());
+
+    private static final String TAG = AttendanceAdapter.class.getSimpleName();
+
+
+    public static List&lt;AttendanceModel&gt; listItems;
+    private List&lt;AttendanceModel&gt; listItemsFiltered;
+    private Context context;
+    private ProgressDialog dialog;
+    private AttendanceAdapter.AttendanceAdapterListner listner;
+
+    private ProgressDialog pDialog;
+    private SQLiteHandler db;
+    public static JSONObject jo = new JSONObject();
+    public static JSONArray ja  = new JSONArray();
+
+
+
+
+    public AttendanceAdapter(List&lt;AttendanceModel&gt; listItems, Context context, AttendanceAdapter.AttendanceAdapterListner listner) {
+        this.listItems = listItems;
+        this.listner=listner;
+        this.context = context;
+        this.listItemsFiltered =listItems;
+
+        // SqLite database handler
+        db = new SQLiteHandler(context);
+
+        // Progress dialog
+        pDialog = new ProgressDialog(context);
+
+
+    }
+
+    @Override
+    public Filter getFilter() {
+        return new Filter() {
+            @Override
+            protected FilterResults performFiltering(CharSequence charSequence) {
+                String charString = charSequence.toString();
+                if (charString.isEmpty()) {
+                    listItemsFiltered = listItems;
+                } else {
+                    List&lt;AttendanceModel&gt; filteredList = new ArrayList&lt;&gt;();
+                    for (AttendanceModel row : listItems) {
+
+                        // name match condition. this might differ depending on your requirement
+                        // here we are looking for name or phone number match
+                        if (row.getName().toUpperCase().contains(charSequence.toString().toUpperCase())||row.getName().toLowerCase().contains(charSequence.toString().toLowerCase())) {
+
+                            filteredList.add(row);
+                        }
+                    }
+
+                    listItemsFiltered = filteredList;
+                }
+
+                FilterResults filterResults = new FilterResults();
+                filterResults.values = listItemsFiltered;
+                return filterResults;
+            }
+
+            @Override
+            protected void publishResults(CharSequence charSequence, FilterResults filterResults) {
+                listItemsFiltered = (ArrayList&lt;AttendanceModel&gt;) filterResults.values;
+                notifyDataSetChanged();
+            }
+        };
+    }
+
+
+    public class ViewHolder extends RecyclerView.ViewHolder {
+
+        public TextView name;
+        public TextView roll;
+        public TextView previous;
+
+        RadioGroup radioAttendance;
+        RadioButton radioAttendancePresent,radioAttendanceAbsent;
+
+
+        public CardView card_view;
+
+
+        public ViewHolder(View itemView) {
+            super(itemView);
+            name= (TextView) itemView.findViewById(R.id.textViewAttendanceStudentName);
+            roll = (TextView) itemView.findViewById(R.id.textViewAttendanceStudentRoll);
+            previous = (TextView) itemView.findViewById(R.id.textViewAttendanceStudentPreviousStatus);
+            radioAttendance = itemView.findViewById(R.id.radioAttendance);
+            radioAttendancePresent =itemView.findViewById(R.id.radioAttendancePresent);
+            radioAttendanceAbsent =itemView.findViewById(R.id.radioAttendanceAbsent);
+
+            //card_view = (CardView) itemView.findViewById(R.id.class_card_view); // card view for on click method
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick( View view) {
+                    // send selected contact in callback
+                    listner.onAttendanceAdapterSelected(listItemsFiltered.get(getAdapterPosition()));  // selecting cardview and position (model)
+                }
+            });
+            radioAttendance.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+                @Override
+                public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                    //Toast.makeText(TeacherAttendanceActivity.this, toString(i), Toast.LENGTH_SHORT).show();
+                    // Toast.makeText(context,"clicked at position"+i+" "+id+""+name,Toast.LENGTH_SHORT).show();
+
+                    if(radioAttendancePresent.isChecked())
+                    {
+                        listItems.get(getAdapterPosition()).setAttendance("present");
+
+
+                    }
+                    else {
+                        listItems.get(getAdapterPosition()).setAttendance("absent");
+
+                    }
+
+                }
+            });
+
+
+        }
+
+
+    }
+
+
+    @Override
+    public AttendanceAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.attendance_list, parent, false);
+        return new AttendanceAdapter.ViewHolder(v);
+    }
+
+    @Override
+    public void onBindViewHolder  (final AttendanceAdapter.ViewHolder holder, final int position) {
+        final AttendanceModel listItem = listItemsFiltered.get(position);
+
+        holder.name.setText(listItem.getName());
+        holder.roll.setText(listItem.getRoll());
+        holder.previous.setText(listItem.getPreviousAttendance());
+
+
+    }
+
+    public interface AttendanceAdapterListner {
+        void onAttendanceAdapterSelected(AttendanceModel model);  // sending cardview to say the dialoge and model for sending context
+    }
+
+    @Override
+    public int getItemCount() {
+        return listItemsFiltered.size();
+    }
+
+    private void showDialog() {
+        if (!pDialog.isShowing())
+            pDialog.show();
+    }
+
+    private void hideDialog() {
+        if (pDialog.isShowing())
+            pDialog.dismiss();
+    }
+}
+</code></pre>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>7.  Clean way to retain CoroutineScope through config changes without ViewModel        
+          <a href="https://stackoverflow.com/questions/59881467/clean-way-to-retain-coroutinescope-through-config-changes-without-viewmodel?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 1 </a>
+            <a>Votes: 4 </a>
+            <a>Tags: android; kotlin; kotlin-coroutines; </a>
+            <a>Asked Time: 11 hours ago</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>I know the recommendation is to use a ViewModel with our Activity, so we can use its <code>viewModelScope</code>. Since the ViewModel outlives the Activity, we don't have to cancel our jobs in <code>activity.onDestroy()</code>.</p>
+<p>However, sometimes you have a dirt-simple Activity. For example, it could populate a list view with filtered packages that are installed. You can very simply create a scope for the activity using a delegate, and cancel jobs in <code>onDestroy()</code>:</p>
+<pre><code>class MyActivity(): AppCompatActivity(), CoroutineScope by MainScope() {
+
+    private val listAdapter = MyAdapter()
+
+    override fun onCreate() {
+        super.onCreate()
+        setContentView(R.layout.my_activity)
+        recycler_view.apply {
+            layoutManager = LinearLayoutManager(this)
+            adapter = listAdapter
+        }
+        launch {
+            val packages = getOrgPackagesWithIcons()
+            adapter.apply {
+                data = packages
+                notifyDataSetChanged()
+            }
+        }
+
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        cancel() // CoroutineContext
+    }
+
+    private suspend fun getOrgPackagesWithIcons() = withContext(Dispatchers.Default) {
+        var toNextYield = 20
+        packageManager.getInstalledPackages(0)
+            .filter { it.packageName.startsWith("org")
+            .take(100)
+            .map { 
+                     if (--toNextYield == 0) { // Make it cancellable
+                         toNextYield = 20
+                         yield()
+                     }
+                     MyPackageData(
+                         it.applicationInfo.loadLabel(packageManager).toString(),
+                         it.packageName,
+                         it.applicationInfo.loadIcon(packageManager)
+                     )
+                 }
+        }
+
+}
+</code></pre>
+<p>For a case like this, ViewModel feels like overkill. It would just be another layer to abstract the PackageManager, which is really a view model in itself. </p>
+<p>The above code makes it easy to assemble the data in the background. The problem is that when the screen is rotated, or during other configuration changes, the coroutine is cancelled and restarted. Is there a clean recipe for keeping a CoroutineScope alive through a configuration change for a very simple Activity like this?</p>
+<p><code>onRetainNonConfigurationInstance()</code> is deprecated. I suppose we could put it in a Fragment and use <code>retainInstance = true</code>, but introducing a Fragment layer to such a simple Activity also feels like overkill.</p>
+<p>Maybe there's a way to create an empty ViewModel implementation just so we can borrow its scope?</p>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>8.  How to implement Android playstore in-app update with react-native        
+          <a href="https://stackoverflow.com/questions/59833787/how-to-implement-android-playstore-in-app-update-with-react-native?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 1 </a>
+            <a>Votes: 4 </a>
+            <a>Tags: android; react-native; </a>
+            <a>Asked Time: 2 days ago</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p><a href="https://i.stack.imgur.com/eF05z.png" rel="nofollow noreferrer"><img alt="immediate flow of play store in-app updates" src="https://i.stack.imgur.com/eF05z.png"/></a></p>
+<p>How can I implement play store in-app update with my react-native app, which is already live on play store?</p>
+<p>I have already implemented code push and also internal version check via API calls to force the user to update the app.</p>
+<p>With Codepush: code push only works for javascript changes. However, there are many scenarios where we will need the whole app to be updated when there is a native code change.</p>
+<p>With API check: We need to watch when the update is getting live, and update the version number kept in the backend to force the user to update the app.</p>
+<p>Though both these solutions are kind of patchy, I would like to implement the elegant approach of the play-store in-app update, but couldn't find a clue on how to get it done.</p>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>9.  Android Intent Bundle passing returns always null        
+          <a href="https://stackoverflow.com/questions/59799477/android-intent-bundle-passing-returns-always-null?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 3 </a>
+            <a>Votes: 3 </a>
+            <a>Tags: java; android; string; list; bundle; </a>
+            <a>Asked Time: Jan 18</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>I am trying to pass text from a custom dialog to the home activity. The bundle always comes up as null instead of the value I'm trying to pass and I can't figure out why. I've tried looking at similar questions but I have yet to find a solution.</p>
+<p>Dialog</p>
+<pre><code>@Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_add_ingredients_dialog);
+
+    Button addButton = findViewById(R.id.addButton);
+    addButton.setOnClickListener(
+            new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    ArrayAdapter&lt;String&gt; arrayAdapter = new ArrayAdapter&lt;&gt;(AddIngredientsDialog.this,
+                            android.R.layout.select_dialog_item, fruits);
+                    editText.setAdapter(arrayAdapter);
+                    text = editText.getText().toString();
+
+                    Intent intent = new Intent(AddIngredientsDialog.this, AddIngredientsActivity.class);
+                    intent.putExtra("Text", text);
+                    startActivity(intent);
+                    dialog.dismiss();
+            }
+
+     });
+}
+</code></pre>
+<p>Home Activity</p>
+<pre><code> ingredientList = findViewById(R.id.listView);
+ ArrayList&lt;String&gt; ingredients = new ArrayList&lt;&gt;();
+ @Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_add_ingredients);
+
+    //bundle
+    Bundle extras = getIntent().getExtras();
+    text = extras.getString("Text");
+
+    button = findViewById(R.id.add);
+    button.setOnClickListener(new View.OnClickListener() {
+
+        @Override
+        public void onClick(View arg0) {
+            ingredients.add(text);
+            adapter = new ArrayAdapter&lt;&gt;(AddIngredientsActivity.this, android.R.layout.simple_list_item_1, ingredients);
+            ingredientList.setAdapter(adapter);
+            adapter.notifyDataSetChanged();
+        }
+    });
+}
+</code></pre>
+</div></blockquote><br/><hr/><br/><br/>
+      </details>
+      <details>
+        <summary>10.  Why do I need to add Material Theme dependency in order to resolve DocumentFile        
+          <a href="https://stackoverflow.com/questions/59861038/why-do-i-need-to-add-material-theme-dependency-in-order-to-resolve-documentfile?r=SearchResults">Links</a>
+          <p>
+            <a>Answers: 1 </a>
+            <a>Votes: 3 </a>
+            <a>Tags: java; android; </a>
+            <a>Asked Time: yesterday</a>
+          </p>
+        </summary>
+        <blockquote><div class="post-text" itemprop="text">
+<p>I needed to access the <strong>DocumentFile</strong>  class in my Android Studio project. I had a hell of a time getting it to resolve.</p>
+<p>The Andriod Developers Documentation said that I needed to import <strong>"androidx.documentfile.provider.DocumentFile"</strong>, but when I added the import, I was told that it couldn't resolve that import. It didn't like the '.documentfile.' portion.</p>
+<p>After much hair pulling and gnashing of teeth, I stumbled on to the fact that I needed to add an implementation dependency on  <strong>"com.google.android.material:material:1.0.0"</strong>. Once I added that to my build file, the include resolved and I had access to the DocumentFile class.</p>
+<p>Why is this? Where is the documentation that states I needed to do this? Or, should I have done something different to get DocumentFile to resolve?</p>
+<p>Any insight on this would be greatly appreciated.</p>
+</div></blockquote><br/><hr/><br/><br/>
+      </details><br/>
+    </div>
+  </body>
+</html>
